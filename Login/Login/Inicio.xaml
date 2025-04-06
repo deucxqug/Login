@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Login.Inicio">
+    <ContentPage.Content>
+        <StackLayout>
+        <Entry Placeholder="Usuario" x:Name="txtUser"/>
+        <Entry IsPassword="True" Placeholder="Constraseña" x:Name="txtPw"/>
+        <Button Text="Iniciar Sesion" Clicked="Button_Clicked"/>
+        <Label x:Name="lblError" TextColor="Red"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
